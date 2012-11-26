@@ -1,0 +1,6 @@
+<!ELEMENT weathermap (weekday)*>
+<!ELEMENT weekday ( day, daytemp, nighttemp, rain)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT daytemp (#PCDATA)>
+<!ELEMENT nighttemp (#PCDATA)>
+<!ELEMENT rain (#PCDATA)>

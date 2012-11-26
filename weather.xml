@@ -1,0 +1,45 @@
+<!DOCTYPE weathermap SYSTEM "weather.dtd">
+<weathermap>
+<weekday>
+	<day>1</day>
+	<daytemp>30</daytemp>
+	<nighttemp>22</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>2</day>
+	<daytemp>33</daytemp>
+	<nighttemp>21</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>3</day>
+	<daytemp>22</daytemp>
+	<nighttemp>15</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>4</day>
+	<daytemp>23</daytemp>
+	<nighttemp>15</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>5</day>
+	<daytemp>24</daytemp>
+	<nighttemp>17</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>6</day>
+	<daytemp>23</daytemp>
+	<nighttemp>13</nighttemp>
+	<rain>0</rain>
+</weekday>
+<weekday>
+	<day>7</day>
+	<daytemp>26</daytemp>
+	<nighttemp>19</nighttemp>
+	<rain>0</rain>
+</weekday>
+</weathermap>

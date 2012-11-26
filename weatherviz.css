@@ -1,0 +1,192 @@
+/*################################################
+	
+	CSS Stylesheet for WeatherViz
+	Hannu Ranta 
+	
+################################################*/
+
+/* Common Body-part: */
+
+body
+{
+	background-color: #453737;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+
+/* Main container */
+
+#main-container
+{
+	width: 80%;
+	height: 100%;
+	
+	padding: auto;
+	margin: auto;
+	margin-top: 100px;
+
+	min-width: 610px;
+	min-height: 500px;
+	
+	border: 2px solid black;
+
+	background-color: white;
+}
+
+/* Main container paragraph*/
+
+#main-container p
+{
+	margin: 0;
+
+	padding-top: 20px;
+	padding-left: 50px;
+
+	font: 12px Arial, Helvetica;
+	font-weight: normal;
+	color: black;
+}
+
+/*------------------------------------------------
+		TABLES & LISTS
+------------------------------------------------*/
+
+/* Table definitions*/
+
+#table-def
+{
+	font-family: "Arial, Times, Helvetica";
+	background-color: white;
+	font-size: 14px;
+	margin:50px;
+	width: auto;
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid #BC8F8F;
+}
+#table-def th
+{
+	padding: 12px 17px 12px 17px;
+	font-weight: 900;
+	font-size: 16px;
+	color: black;
+	border-bottom: 1px dashed #BC8F8F;
+}
+#table-def td
+{
+	padding: 7px 17px 7px 17px;
+	color: black;
+	border: 1px solid #BC8F8F;
+}
+#table-def td.empty
+{
+	padding: 7px 17px 7px 17px;
+	background-color: #BC8F8F;
+	color: black;
+	border: 1px solid #BC8F8F;
+}
+#table-def td.even
+{
+	padding: 7px 17px 7px 17px;
+	background-color: #D3D3D3;
+	color: black;
+	border: 1px solid #BC8F8F;
+}
+#table-def tbody tr:hover td
+{
+	color: white;
+	background: #780000;
+}
+#table-def tbody tr:hover td.empty
+{
+	padding: 7px 17px 7px 17px;
+	background-color: #BC8F8F;
+	color: black;
+	border: 1px solid #BC8F8F;
+}
+
+/* List definitions: */
+
+ul
+{
+	margin: 0;
+
+	padding-top: 20px;
+	padding-left: 70px;
+
+	font: 14px Arial, Helvetica;
+	font-weight: bold;
+	color: black;
+}
+
+li
+{
+	margin: 0;
+}
+
+/*------------------------------------------------
+		HEADERS
+------------------------------------------------*/
+
+/* First level header */
+
+h1
+{
+	margin: 0;
+
+	padding-top: 20px;
+	padding-left: 50px;
+
+	font: 14px Arial, Helvetica;
+	font-weight: bold;
+	color: black;
+}
+
+/* Second level header */
+
+h2
+{
+	margin: 0;
+
+	padding-top: 20px;
+	padding-left: 50px;
+
+	font: 12px Arial, Helvetica;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+}
+
+
+/*------------------------------------------------
+		LINKS
+------------------------------------------------*/
+
+/* Unvisited link color */
+
+a:link 
+{
+	color: #780000;
+}
+
+/* Visited link color */
+
+a:visited
+{
+	color: #780000;
+} 
+
+/* Hover color */
+
+a:hover
+{
+	color: #ff8010;
+} 
+
+/* Active link */
+
+a:active
+{
+	color: #ffcd19;
+}  
